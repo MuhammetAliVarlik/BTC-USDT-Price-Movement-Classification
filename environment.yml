@@ -1,0 +1,20 @@
+name: tf-gpu
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy<2
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - cudatoolkit=11.8
+  - cudnn=8.6
+  - pip
+  - pip:
+      - tensorflow==2.10
+      - ccxt
+      - ta
+      - keras
+      - pandas
+      - scipy
