@@ -2,6 +2,7 @@ from keras.callbacks import Callback
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
 
+# original code is from: https://medium.com/@Vishal_v_cool/visualizing-model-during-training-1c54fd21f348
 class PlotLearning(Callback):
     """
     Callback to plot the learning curves of the model during training.
