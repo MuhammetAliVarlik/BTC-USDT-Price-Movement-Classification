@@ -111,7 +111,7 @@ weighted avg       0.52      0.52      0.52      2606
 The model shows a modest improvement over random guessing, with slightly better performance on upward movement prediction.
 
 ---
-## Project Structure
+## 🌲 Project Structure
 ```yaml
 
 ├── main.py # Main script to run the model training and evaluation
