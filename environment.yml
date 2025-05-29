@@ -1,4 +1,4 @@
-name: tf-gpu
+name: btc-prediction
 channels:
   - defaults
   - conda-forge
@@ -14,7 +14,6 @@ dependencies:
   - pip:
       - tensorflow==2.10
       - ccxt
-      - ta
       - keras
       - pandas
       - scipy
